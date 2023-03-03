@@ -3,6 +3,7 @@
 
 int main() {
        int i, num = 0, sum = 0;
+       float suma = 0, number = 0;
 
    for(i=1; i<=2; i++) {
       //printf("Ingrese el numero %d: ", i);
@@ -21,6 +22,14 @@ int main() {
    }
 
    printf("%d\n", sum);
+
+   for(i=1; i<=5; i++) {
+      //printf("Ingrese el numero %d: ", i);
+      scanf("%f", &number);
+      suma += number;
+   }
+
+   printf("%.3f\n", suma);
 
    return 0;
 }
