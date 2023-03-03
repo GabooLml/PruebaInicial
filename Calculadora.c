@@ -10,7 +10,7 @@ int main() {
       sum += num;
    }
 
-   printf("%d", sum);
+   printf("%d\n", sum);
 
    sum = 0;
    for(i=1; i<=4; i++) {
@@ -19,7 +19,7 @@ int main() {
       sum += num;
    }
 
-   printf("%d", sum);
+   printf("%d\n", sum);
 
    return 0;
 }
