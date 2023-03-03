@@ -2,7 +2,7 @@
 #include <stdio.h> //Standard input / output
 
 int main() {
-       int i, num, sum = 0;
+       int i, num = 0, sum = 0;
 
    for(i=1; i<=2; i++) {
       //printf("Ingrese el numero %d: ", i);
@@ -13,6 +13,7 @@ int main() {
    printf("%d\n", sum);
 
    sum = 0;
+   num = 0;
    for(i=1; i<=4; i++) {
       //printf("Ingrese el numero %d: ", i);
       scanf("%d", &num);
