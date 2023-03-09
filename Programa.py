@@ -4,12 +4,10 @@ lines = []
 for line in fileinput.input():
 	lines.append(line)
 
-print(type(lines[0]))
-
 if len(lines) == 2:
 	print(int(lines[0]) + int(lines[1]))
 
-elif type(float(lines[0])) is float:
+elif len(lines) == 5:
 	sum = 0
 	for line in lines:
 		sum += float(line)
