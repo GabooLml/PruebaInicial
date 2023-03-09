@@ -1,5 +1,6 @@
 #include <stdlib.h> //Standard library
 #include <stdio.h> //Standard input / output
+//Prueba de funcionamiento
 
 int main() {
        int i, num = 0, sum = 0;
