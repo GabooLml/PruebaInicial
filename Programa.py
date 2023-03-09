@@ -5,16 +5,16 @@ for line in fileinput.input():
 	lines.append(line)
 
 if len(lines) == 2:
-	print(lines[0] + lines[1])
+	print(int(lines[0]) + int(lines[1]))
 elif type(lines[0]) is float:
 	sum = 0
 	for line in lines:
-		sum += line
+		sum += float(line)
 
 	print(sum)
 else:
 	sum = 0
 	for line in lines:
-		sum += line
+		sum += int(line)
 
 	print(sum)
