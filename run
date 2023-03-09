@@ -1,3 +1,2 @@
 #!/bin/sh
-gcc Calculadora.c -o Calculadora
-./Calculadora
+python3 Programa.py
